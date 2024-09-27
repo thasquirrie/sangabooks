@@ -66,3 +66,43 @@
 {"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-00.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:23:35.970Z"}
 {"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:30:03.520Z"}
 {"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:30:07.089Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:47:47.172Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-01.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:47:49.785Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:49:00.707Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:49:03.961Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:53:18.691Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:53:21.259Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:55:32.390Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-00.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T17:55:34.904Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:08:31.510Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:08:48.624Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:08:53.468Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:10:22.485Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-01.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:10:26.794Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:11:01.264Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-01.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:11:15.446Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:15:10.129Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:15:15.039Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-00.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:15:19.967Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:23:50.044Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:23:52.759Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:30:17.597Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-26T18:30:28.532Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:00:46.036Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-01.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:00:48.652Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:07:34.033Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-00.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:07:36.515Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:10:57.309Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:11:05.301Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:12:48.063Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:12:51.423Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:13:05.362Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:13:08.323Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:40:19.839Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:40:22.461Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:49:11.473Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-01.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:49:14.137Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:56:07.140Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-00.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T06:56:09.683Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-09-27T07:10:26.229Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-09-27T07:10:30.063Z"}

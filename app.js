@@ -22,6 +22,11 @@ app.use(json());
 app.use(urlencoded({ extended: true }));
 app.use(morgan('combined', { stream: createLogger.stream }));
 
+app.use((req, res, next) => {
+  console.log('Body:', req.body);
+  next();
+});
+
 import authRouter from './src/routes/authRoutes.js';
 import adminRouter from './src/routes/adminRoutes.js';
 import roleRouter from './src/routes/roleRoutes.js';
@@ -29,11 +34,6 @@ import roleRouter from './src/routes/roleRoutes.js';
 app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/admin', adminRouter);
 app.use('/api/v1/roles', roleRouter);
-
-app.use((req, res, next) => {
-  console.log('Body:', req.body);
-  next();
-});
 
 app.all('*', (req, res, next) => {
   next(

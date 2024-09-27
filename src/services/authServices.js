@@ -4,6 +4,8 @@ import Admin from '../models/Admin.js';
 import catchAsync from '../utils/catchAsync.js';
 import AppError from '../utils/appError.js';
 
+console.log('Secret:', process.env.JWT_SECRET);
+
 /**
  * Generates a JSON Web Token (JWT) for a given user ID.
  * @param {string} id - The user ID to generate the JWT for.
@@ -11,7 +13,7 @@ import AppError from '../utils/appError.js';
  */
 const signToken = (id) => {
   return JWT.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES,
+    expiresIn: process.env.JWT_EXPIRES_IN,
   });
 };
 
@@ -51,9 +53,11 @@ export const adminLoginService = catchAsync(async (req, res, next) => {
 
   const admin = await findUserByEmail(Admin, email, '+password');
 
-  if (!user || !(await admin.comparePasswords(password, admin.password))) {
+  if (!admin || !(await admin.comparePasswords(password, admin.password))) {
     return next(new AppError('Incorrect email or password', 401));
   }
+
+  admin.password = undefined;
 
   createSignedToken(admin, res, 200, 'Admin logged in successfully');
 });

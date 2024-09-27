@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/9143b2f5-bf05-4728-b63b-2d5ed4334dca/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/SangaBooks",
+  "appService.deploySubpath": "."
+}

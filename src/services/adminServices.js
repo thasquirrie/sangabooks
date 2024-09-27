@@ -1,4 +1,5 @@
 import {
+  createUser,
   deleteUser,
   findUserByIdAndUpdate,
   getAllUsers,
@@ -15,24 +16,24 @@ export const createMemberService = catchAsync(async (req, res, next) => {
     if (!req.body[params]) {
       return next(new AppError(`Please provide ${params} to continue`, 400));
     }
-
-    req.body.teamId = generateTeamId();
-
-    const member = await createUser(TeamMember, req.body);
-
-    res.status(201).json({
-      status: 'success',
-      message: 'Team member created successfully',
-      data: {
-        member,
-      },
-    });
   }
+
+  req.body.teamId = generateTeamId();
+
+  const member = await createUser(TeamMember, req.body);
+
+  res.status(201).json({
+    status: 'success',
+    message: 'Team member created successfully',
+    data: {
+      member,
+    },
+  });
 });
 
 export const getAllMembersService = catchAsync(async (req, res, next) => {
   const { status } = req.query;
-  const filter = status ? { status } : {};
+  const filter = status && { status };
   const members = await getAllUsers(TeamMember, filter);
 
   res.status(200).json({

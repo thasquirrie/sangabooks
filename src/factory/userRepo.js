@@ -6,7 +6,7 @@ import { Model } from 'mongoose';
  * @returns {Promise<Object>} A promise that resolves with the created user object.
  */
 export async function createUser(Model, data) {
-  return await Model.create(data);
+  return Model.create(data);
 }
 
 /**
@@ -56,7 +56,8 @@ export async function findUserByEmailOrPhone(Model, email, phone) {
  * @returns {Promise<Array>} A promise that resolves with an array of all users.
  */
 export async function getAllUsers(Model, filter) {
-  return Model.find({ filter });
+  if (filter) return Model.find(filter);
+  return Model.find();
 }
 
 /**

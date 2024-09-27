@@ -9,6 +9,7 @@ import {
 import AppError from '../utils/appError.js';
 import catchAsync from '../utils/catchAsync.js';
 import { promisify } from 'util';
+import jwt from 'jsonwebtoken';
 
 export const createAdmin = catchAsync(async (req, res, next) => {
   createAdminService(req, res, next);
