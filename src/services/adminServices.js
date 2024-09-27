@@ -34,6 +34,7 @@ export const createMemberService = catchAsync(async (req, res, next) => {
 export const getAllMembersService = catchAsync(async (req, res, next) => {
   const { status } = req.query;
   const filter = status && { status };
+  console.log({ filter });
   const members = await getAllUsers(TeamMember, filter);
 
   res.status(200).json({
