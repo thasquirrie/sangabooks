@@ -88,7 +88,10 @@ export async function findUserById(Model, id) {
  * @returns {Promise<Object|null>} A promise that resolves with the user if found and updated, and null if not.
  */
 export async function findUserByIdAndUpdate(Model, id, data) {
-  return Model.findByIdAndUpdate(id, data);
+  return Model.findByIdAndUpdate(id, data, {
+    new: true,
+    runValidators: true,
+  });
 }
 
 /**

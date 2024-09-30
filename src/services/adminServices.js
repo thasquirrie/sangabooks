@@ -47,6 +47,19 @@ export const getAllMembersService = catchAsync(async (req, res, next) => {
   });
 });
 
+export const getMemberService = catchAsync(async (req, res, next) => {
+  const member = await findUserById(req.params.id);
+
+  if (!member) return next(new AppError('No user found', 404));
+
+  res.status(200).json({
+    status: 'success',
+    data: {
+      member
+    }
+  })
+});
+
 export const statusCountSevice = catchAsync(async (req, res, next) => {
   const statusCount = await TeamMember.aggregate([
     {
@@ -74,6 +87,8 @@ export const statusCountSevice = catchAsync(async (req, res, next) => {
 
 export const updatePermissionsService = catchAsync(async (req, res, next) => {
   const { memberId } = req.params;
+
+  console.log(req.body);
 
   const member = await findUserByIdAndUpdate(TeamMember, memberId, req.body);
 

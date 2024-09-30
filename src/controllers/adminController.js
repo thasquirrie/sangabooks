@@ -2,6 +2,7 @@ import {
   createMemberService,
   deleteMemberService,
   getAllMembersService,
+  getMemberService,
   statusCountSevice,
   updateMemberRoleService,
   updateMemberStatusService,
@@ -36,3 +37,7 @@ export const deleteMember = catchAsync(async (req, res, next) => {
 export const statusCount = catchAsync(async (req, res, next) => {
   statusCountSevice(req, res, next);
 });
+
+export const getMember = catchAsync(async (req, res, next) => {
+  getMemberService(req, res, next);
+})
