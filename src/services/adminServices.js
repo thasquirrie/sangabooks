@@ -1,6 +1,7 @@
 import {
   createUser,
   deleteUser,
+  findUserById,
   findUserByIdAndUpdate,
   getAllUsers,
 } from '../factory/userRepo.js';
@@ -48,7 +49,9 @@ export const getAllMembersService = catchAsync(async (req, res, next) => {
 });
 
 export const getMemberService = catchAsync(async (req, res, next) => {
-  const member = await findUserById(req.params.id);
+
+  console.log('ID:', req.params.id);
+  const member = await findUserById(TeamMember, req.params.memberId);
 
   if (!member) return next(new AppError('No user found', 404));
 
