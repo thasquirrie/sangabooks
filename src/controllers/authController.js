@@ -3,7 +3,9 @@ import Admin from '../models/Admin.js';
 import {
   adminLoginService,
   createAdminService,
+  forgotPasswordService,
   loginService,
+  resetPasswordService,
   signupService,
 } from '../services/authServices.js';
 import AppError from '../utils/appError.js';
@@ -67,4 +69,12 @@ export const protect = catchAsync(async (req, res, next) => {
   // GRANT ACCESS TO PROTECTED ROUTE
   req.user = currentUser;
   next();
+});
+
+export const forgotPassword = catchAsync(async (req, res, next) => {
+  forgotPasswordService(req, res, next);
+});
+
+export const resetPassword = catchAsync(async (req, res, next) => {
+  resetPasswordService(req, res, next);
 });

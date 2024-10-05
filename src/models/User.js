@@ -1,5 +1,6 @@
 import { Schema, model } from 'mongoose';
 import validator from 'validator';
+import bcrypt from 'bcrypt';
 
 const userSchema = new Schema(
   {
@@ -18,6 +19,7 @@ const userSchema = new Schema(
     password: {
       type: String,
       required: [true, 'Password is required'],
+      select: false,
     },
     confirmPassword: {
       type: String,
@@ -82,7 +84,7 @@ userSchema.pre('save', async function (next) {
   next();
 });
 
-userSchema.methods.comparePassword = async function (
+userSchema.methods.comparePasswords = async function (
   candidatePassword,
   userPassword
 ) {

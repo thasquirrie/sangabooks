@@ -1,8 +1,10 @@
-const nodemailer = require('nodemailer');
-const mg = require('nodemailer-mailgun-transport');
-const catchAsync = require('../utils/catchAsync');
+// const mg = require('nodemailer-mailgun-transport');
+// const catchAsync = require('../utils/catchAsync');
+import nodemailer from 'nodemailer';
+import mg from 'nodemailer-mailgun-transport';
+import catchAsync from '../utils/catchAsync.js';
 
-exports.nodeMailer = catchAsync(async (user, subject, message) => {
+const nodeMailer = catchAsync(async (user, subject, message) => {
   const mailgunAuth = {
     auth: {
       api_key: process.env.API_KEY,
@@ -22,7 +24,7 @@ exports.nodeMailer = catchAsync(async (user, subject, message) => {
   const transport = nodemailer.createTransport(mg(mailgunAuth));
 
   const mailOptions = {
-    from: 'support@subsum.com',
+    from: 'support@sangabooks.com',
     to: user,
     subject: subject,
     html: message,
@@ -46,3 +48,5 @@ exports.nodeMailer = catchAsync(async (user, subject, message) => {
     }
   });
 });
+
+export default nodeMailer;
