@@ -276,3 +276,11 @@
 {"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-00.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-10-05T16:03:06.152Z"}
 {"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-10-05T16:03:48.647Z"}
 {"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-02.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-10-05T16:03:51.083Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-10-06T04:28:01.732Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-00.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-10-06T04:28:05.095Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-10-06T04:30:50.976Z"}
+{"label":"SangaBooks","level":"error","message":"\u001b[31m\u001b[1mError: connect ETIMEDOUT 34.230.94.1:27017 ❌❌❌\u001b[22m\u001b[39m","timestamp":"2024-10-06T04:31:13.715Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-10-06T04:32:49.881Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-00.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-10-06T04:32:53.486Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[36m\u001b[1mSangaBooks server kickstart to life on port 5000\u001b[22m\u001b[39m","timestamp":"2024-10-06T04:35:09.984Z"}
+{"label":"SangaBooks","level":"info","message":"\u001b[33m\u001b[1mDatabase connected on: cluster0-shard-00-01.nvs56.mongodb.net\u001b[22m\u001b[39m","timestamp":"2024-10-06T04:35:14.816Z"}

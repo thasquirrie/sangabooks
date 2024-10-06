@@ -123,9 +123,13 @@ export const signupService = catchAsync(async (req, res, next) => {
 });
 
 export const loginService = catchAsync(async (req, res, next) => {
-  const { email, password } = req.body;
+  const { email, password, accountType } = req.body;
 
-  const user = await findUserByEmail(User, email, '+password');
+
+  let model = accountType === 'admin' ? Admin : User;
+
+
+  const user = await findUserByEmail(model, email, '+password');
 
   if (!user || !(await user.comparePasswords(password, user.password))) {
     return next(new AppError('Incorrect email or password', 401));

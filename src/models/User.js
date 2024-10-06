@@ -47,16 +47,16 @@ const userSchema = new Schema(
       trim: true,
     },
     companySize: {
-      type: Number,
+      type: String,
       required: [true, 'Company size is required'],
-      default: 1,
+      default: '1',
     },
     income: {
-      type: Number,
+      type: String,
       required: [true, 'Income is required'],
-      default: 0,
+      default: '0',
     },
-    lastTaxReturn: Date,
+    lastTaxReturn: String,
   },
   {
     timestamps: true,
